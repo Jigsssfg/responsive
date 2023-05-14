@@ -1,0 +1,677 @@
+body {
+   margin: 0px;
+   padding: 0px;
+   font-weight: normal;
+   font-family: 'Nunito', sans-serif;
+}
+
+:root {
+  --text-white:#ffffff;
+ --text-black:#000000;
+ --bg-color-white:#ffffff;
+ --bg-color-black:#000000;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+p{
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 0px;
+}
+
+/*----------------
+     header
+----------------*/
+
+
+/* ...............................side-menu-css:start...................................... */
+
+.sidebar {
+    height: 100%;
+    width: 65px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(#024176, #1183b1);
+    transition: 0.5s;
+    overflow-x: hidden;
+    padding-top: 20px;
+    white-space: nowrap;
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    display: block;
+  }
+  main .sidebar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidebar-left-icon a:hover{
+    border-left: 3px solid #fff;
+    background: #0b6899;
+    color: #ffffff;
+    transition: all 0.3s;
+  }
+
+  img.material-icons.logo {
+    border-radius: 50%;
+    width: 48px;
+    border: 2px solid #fff;
+}
+img.material-icons{
+    width:25px;
+}
+.sidebar a.icon {
+    padding: 10px 18px;
+    
+}
+.profile-image {
+    padding: 8px 8px 8px 8px;
+}
+button.plus-sidebar {
+    background: #2f80ed;
+    border: none;
+    padding: 8px 14px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+button.plus-sidebar i.fa.fa-plus {
+    color: #fff;
+} 
+
+  
+/* ...............................side-menu-css:end...................................... */
+
+
+
+/* ...............................top-header-css:start...................................... */
+
+
+.top-section-alis {
+    background: #fff;
+    border-bottom: 1px solid #0b6899;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.top-header-left-logo img {
+    width: 100px;
+    margin-left: 50px;
+}
+button.btn.btn-secondary.dropdown-toggle {
+    background: #fff;
+    color: grey;
+    border-radius: 0px;
+    font-size: 14px;
+    border: 1px solid #d2c9c9;
+    height: 34px;
+}
+button.btn.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+input#search-input:focus-visible {
+    outline: none;
+}
+input#search-input {
+    padding-left: 45px;
+    width: 230px;
+    height: 34px;
+    border-radius: 0px;
+    border: 1px solid #d2c9c9;
+    font-size: 12px;
+    font-weight: 500;
+}
+.middle-top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header-right-side {
+    display: flex;
+    align-items: center;
+}
+i.fa.fa-search {
+    position: absolute;
+    left: 14px;
+    top: 11px;
+    font-size: 14px;
+    color: #a3a3a3;
+    font-weight: 400;
+}
+.search-box-start {
+    position: relative;
+}
+.bell-icon {
+    padding: 0 10px;
+    cursor: pointer;
+}
+.help{
+    padding: 0 10px;
+    cursor: pointer;
+}
+.setting {
+    padding: 0 10px;
+    cursor: pointer;
+}
+.end-notification-icon {
+    display: flex;
+    color: #686767;
+}
+
+/* ...............................top-header-css:end...................................... */
+
+
+
+/* ...............................middle-css:start...................................... */
+
+.middle-main-content {
+    height: auto;
+    background: #f8fbff;
+}
+.left-middle-section {
+    padding: 15px;
+    margin-left: 50px;
+}
+.start-middle-section {
+    background: #fff;
+    border: 1px solid #0a6596;
+}
+.policy-section {
+    padding:6px 10px 10px;
+    border-bottom: 1px solid #0a6596;
+}
+.plus-policy i.fa.fa-plus {
+    color: #fff;
+    font-size: 9px;
+    background: #023374;
+    padding: 5px;
+    margin-right: 10px;
+}
+.plus-policy span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #023374;
+}
+.middle-information {
+    background: #fff;
+    height: auto;
+    padding: 10px;
+}
+.applicant-policy {
+    border: 1px solid #0a6596;
+    padding: 30px 15px 30px 15px;
+}
+
+h4.headin-policy {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.join-venture-section h3 {
+    font-size: 12px;
+}
+.join-venture-section span {
+    font-size: 15px;
+    font-weight: 800;
+}
+.join-venture-section {
+    padding-bottom: 20px;
+}
+.applicant-add {
+    padding: 5px;
+    background: #f8fbff;
+    border: 1px solid #cdd9ea;
+}
+.applicant-add h4 {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.applicant-add p {
+    font-size: 10px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+button.policy-contact {
+    margin-top: 10px;
+}
+button.policy-contact {
+    font-size: 14px;
+    margin: 15px 10px 10px 10px;
+    width: 95%;
+    background: #054e82;
+    color: #fff;
+    padding: 8px 0;
+    border: none;
+}
+button.policy-contact i.fa.fa-plus {
+    font-size: 10px;
+    padding-right: 5px;
+}
+.associattion-policy-section {
+    padding-bottom: 15px;
+}
+.right-sign-team img {
+    width: 45px;
+}
+.team-title h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #054e82;
+}
+
+.team-for-business {
+    border: 1px solid #0a6596;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 8px;
+    border-bottom: none;
+}
+.team-for-business-section i.fa.fa-chevron-down {
+    font-size: 12px;
+    cursor: pointer;
+}
+.team-for-business-section {
+    border-bottom:3px solid #107dacbd;
+}
+.team-image img {
+    width: 80px;
+    border-radius: 50%;
+}
+.team-image{
+    width: 80px;
+}
+.team-viewr-name h4 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.team-image-section {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px
+}
+.team-section-details h3 {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.team-section-details p {
+    font-size: 16px;
+    color: #04477c;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.team-section-details {
+    padding: 10px;
+    background: #054e821f;
+    border-radius: 5px;
+}
+.team-all-detail-sections {
+    border-left: 1px solid #0a6596;
+    border-right: 1px solid #0a6596;
+    border-bottom:3px solid #107dacbd;
+    padding: 15px;
+}
+.team-business-section {
+    padding-bottom: 15px;
+}
+.team-viewr-name span {
+    padding: 9px 12px;
+    background: #085d8f;
+    font-size: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+.available-img img {
+    width: 50%;
+}
+.available-rupees {
+    display: flex;
+    align-items: center;
+}
+.available-logo-section {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 5px 10px;
+    border: 1px solid #0a6596;
+}
+.right-sign-teams img {
+    width: 30px;
+}
+.availbale-rate {
+    font-size: 12px;
+    font-weight: 600;
+}
+.available-all-detail-sections{
+    border: 1px solid #0a6596;
+    padding: 15px 30px;
+}
+.premium-section img {
+    width: 30px;
+}
+.premium-section h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0a6596;
+}
+.premium-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.available-pre-section {
+    padding: 10px;
+    border: 1px solid #0a6596;
+}
+.available-bottom-section {
+    padding-top: 20px;
+}
+.music-market-detail{
+    border: 1px solid #0a6596;
+    border-right: none;
+    padding: 15px;
+    height: 409px;
+}
+.music-title h3 {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.premium-sections p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.premium-sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e1e9f0;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.premium-sections h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0a6596;
+}
+.music-market-details{
+    border: 1px solid #0a6596;
+    border-left: none;
+    padding: 53px 15px 15px 15px;
+    height: 409px;
+}
+.premium-sections-btn button {
+    border: none;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #085d8f;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.right-side-section {
+    padding: 15px 15px 15px 15px;
+    background: #fff;
+}
+.sub-created h4 {
+    font-weight: 700;
+    font-size: 15px;
+}
+.sub-created h4 span {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 4px;
+    background: #f8dd4e;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+.east-title h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.east-titles h4 {
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.east-title {
+    padding-bottom: 15px;
+}
+.east-title {
+    display: flex;
+    justify-content: space-between;
+}
+.east-titles{
+    display: flex;
+    justify-content: space-between;
+}
+.east-titles img{
+    width:18%;
+    height:18%;
+    border-radius: 0%;
+}
+.east-profile-texts button {
+    font-size: 12px;
+    color: #fff;
+    background: #2f80ed;
+    border: none;
+    padding: 3px 9px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.east-profile-texts p {
+    margin-bottom: 0;
+}
+.east-title img{
+    width:18%;
+    border-radius: 50%;
+}
+.east-profile {
+    justify-content: unset;
+    display: flex;
+    padding-right: 0;
+}
+.east-profile-text {
+    padding-right: 91px;
+}
+.east-profile-texts {
+    padding-right:28px;
+}
+.east-side-section {
+    padding: 20px 15px;
+    border: 1px solid #0a65964a;
+    border-bottom: 3px solid #107dacbd;
+    margin-bottom: 15px;
+}
+.east-side-sections {
+    position: relative;
+    padding: 20px 15px;
+    border: 1px solid #0a65964a;
+    border-bottom: 3px solid #107dacbd;
+    margin-bottom: 15px;
+}
+i.fa.fa-files-o {
+    position: absolute;
+    right: 17px;
+    top: 55px;
+    cursor: pointer;
+}
+.adress-input input {
+    width: 100%;
+}
+i.fa.fa-pencil-square-o {
+    cursor: pointer;
+}
+.adress-input input {
+    background: #054e821f;
+    width: 100%;
+    border: 1px solid darkgrey;
+    padding: 7px;
+}
+.adress-input input::placeholder {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+.adress-input {
+    margin-bottom: 10px;
+}
+.phone-input input {
+    width: 84%;
+}
+.phone-input input {
+    background: #054e821f;
+    border: 1px solid darkgrey;
+    padding: 7px;
+}
+.phone-input input::placeholder {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+.email-input input {
+    width:165px;
+}
+.email-input input {
+    background: #054e821f;
+    border: 1px solid darkgrey;
+    padding: 7px;
+}
+.email-input input::placeholder {
+    color: #054e82;
+    font-size: 12px;
+    font-weight: 500;
+}
+.input-tel-email {
+    display: flex;
+    width: 100%;
+}
+
+.sub-created {
+    padding-bottom: 20px;
+}
+.east-logo-start img{
+    width: 100px;
+}
+.east-logo-start h4 {
+    font-size: 14px;
+    padding-top: 8px;
+    font-weight: 700;
+}
+.east-premium h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.east-premium p span {
+    padding-left: 18px;
+}
+.east-premium p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.plm-code p {
+    font-size: 12px;
+    padding-top: 4px;
+    font-weight: 500;
+}
+.plm-code h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.pdf-img img {
+    width: 36px;
+}
+.pdf-plm-code {
+    padding-top: 10px;
+    display: flex;
+}
+.pdf-content h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.pdf-content p {
+    font-size: 14px;
+}
+.inv-content p{
+    font-size: 12px;
+}
+.inv-content h3{
+    font-size: 14px;
+    font-weight: 700;
+}
+.pdf-content {
+    padding-left: 10px;
+}
+.shild-policy img{
+    width: 34px;
+}
+.shild-policy{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.shild-policy p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.pdf-inv-policy img{
+    width: 34px;
+}
+.inv-content {
+    padding-left: 5px;
+}
+.pdf-inv-section {
+    display: flex;
+}
+.inv-price h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.inv-price h4 span {
+    float: right;
+    
+}
+.inv-price h3 span {
+    float: right; 
+    font-size: 12px;
+}
+.inv-price h4 {
+    font-size: 13px;
+    font-weight: 400;
+}
+.inv-policy {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #dfe0e461;
+}
+.east-side-sections:hover {
+    background: #e1e9f0;
+    transition: .3s;
+    cursor: pointer;
+}
+.available-logo-section:hover {
+    border-bottom: 4px solid #085d8f;
+    transition: .3s;
+    cursor: pointer;
+}
